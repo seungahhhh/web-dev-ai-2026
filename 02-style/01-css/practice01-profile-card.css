@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(135deg, #ff7b00, #ff004c);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.border {
+    background: rgba(255, 255, 255, 0.15);
+    width: 350px;
+    height: 475px;
+    margin: 50px auto 10px auto;
+}
+#border-box {
+    border: 3px solid #ffffff;
+    border-radius: 25px;
+}
+
+.ta1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.ta2 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.profile-image {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin: 30px auto 10px auto;
+}
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+}
+
+.Git-box {
+    width: 300px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 15px;
+    margin: 20px auto 15px auto;
+    align-items: center;
+    justify-content: center;
+}
+.GH {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 60px;
+}
+.In-box {
+    width: 300px;
+    height: 60px;
+    border: #ffffff solid 3px;
+    border-radius: 15px;
+    margin: 20px auto 0px auto; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.IN {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 60px;
+}
